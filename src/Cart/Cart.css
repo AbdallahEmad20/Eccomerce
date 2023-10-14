@@ -1,0 +1,177 @@
+
+
+
+.tablee{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .tablee  tr{
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  
+  
+   .tablee th , td{
+    padding: 18px;
+  
+  }
+  
+  
+  .tablee thead{
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+  
+  }
+
+
+
+  .PlusAndMiuns button{
+    width: 65px;
+    height: 40px;
+    background-color: rgb(0, 33, 65);
+    color: #fff;
+    border:1px solid #fff;
+  }
+
+
+  
+  .PlusAndMiuns button:hover{
+  
+    background-color: rgb(0, 33, 65);
+  color: #fff;
+  }
+  
+  .RomoveBtn{
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    background-color: rgb(0, 33, 65);
+  }
+  
+  .SpetialTd{
+    display: flex;
+    align-items: center;
+  }
+
+  
+  @media only screen and (max-width :780px) {
+     .scrolaia{
+   
+    overflow-x: scroll;
+     }
+     .tablee th{
+     
+     width: 100%;
+      font-size: 11px;
+      font-weight: bold;
+     }
+  
+     .PlusAndMiuns{
+      display: flex;
+     }
+    
+    
+  }
+ 
+  .spetial{
+    height: 120px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+ padding: 0px 20px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+margin-bottom: 40px;
+
+  }
+
+
+
+ .Clearbtn{
+
+    border: 2px solid rgb(0, 33, 65);
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(0, 33, 65);
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+  
+ }
+ .Total{
+    margin-top: 20px;
+
+}
+
+.Total span{
+    display: flex;
+    align-items: start;
+    color: rgb(0, 33, 65);
+    font-weight: 400;
+}
+
+.speialH5{
+    color: gold;
+    font-weight: bold;
+}
+
+.Total button{
+border: none;
+width: 130px;
+height: 40px;
+color: #fff;
+background-color: rgb(0, 33, 65);
+margin-top: 10px;
+}
+
+@media screen and (max-width: 380px) {
+ 
+  
+.spetial{
+    display: block;
+    height: auto;
+    padding: 20px;
+}
+.Total{
+    margin-top: 20px;
+}
+}
+
+
+/* Empty Page */
+
+
+.PageFinal{
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartxy{
+
+  position: relative;
+  text-align: center;
+}
+.cartxy button{
+
+  background-color: rgb(0, 33, 65);
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  margin-top: 50px;
+position: absolute;
+left: 50%;
+transform: translatex(-50%);
+}
+.cartxy p{
+
+  font-size: 30px;
+  color: rgb(0, 33, 65);
+  font-weight: bold;
+}
+
+

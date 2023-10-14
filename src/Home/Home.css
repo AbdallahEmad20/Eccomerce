@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ .title{
+    margin: 20px 0px;
+    width: 100%;
+    border-left: 5px solid rgb(0, 33, 65);;
+    background-color: #fff;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+height: 50px;
+padding: 10px 20px;
+font-size: 25px;
+}
+.Spinner {
+    text-align: center;
+}
+
+.Scroll{
+    width: 50px;
+    height: 50px;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+ position: fixed;
+ z-index: 9999;
+ /* right: -100%; */
+ bottom: 2%;  
+}
+
+.show{
+    right: 2%;
+    transition: all 0.5s ease;
+}
+
+.section{
+    display: none;
+}
+
+.Imagee{
+height: 50vh;
+margin: 40px 0 ;
+}
+
+
+
+.Imagee img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 900px) and (min-width: 420px){
+    .Imagee{
+
+        width: 100%;
+        height: 40vh;
+        /* margin-top:  60px; */
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    .Imagee{
+        width: 100%;
+        height: 20vh;
+        /* margin-top:  70px; */
+    
+    }
+
+
+}
+
+/* sixth section  */
+.homesec6 {
+    background-color: #f4f4f4;
+    margin: 60px 0;
+    padding: 50px 0;
+  
+  }
+  
+  .homesec6 h3 {
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+    margin-bottom: 30px;
+  
+  }
+  
+  .homesec6 p {
+    color: #000;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: left;
+  }
+  
+  .homesec6 p span {
+    color: gold;
+    font-weight: 400;
+    margin-right: 10px;
+  }
+  
+  .homesec6 form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    direction: ltr;
+    margin-top: 30px;
+  
+  }
+  
+  .homesec6 form input,
+  .homesec6 form textarea,
+  .homesec6 form select {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 60px;
+    padding: 10px 16px;
+    outline: none;
+    border: 1px solid rgba(248, 118, 101, 0.463);
+    color: white;
+    background-color: #070707;
+    margin-right: 10px;
+  }
+  
+  .homesec6 form input::placeholder,
+  .homesec6 form textarea::placeholder {
+    color: rgb(223, 222, 222);
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .homesec6 button {
+    display: inline-block;
+    background-color: rgb(0, 33, 65);
+  
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 1%;
+    margin: 10px 0;
+    width: 250px;
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+  }
+  
+  .homesec6 button:hover {
+    color: #000;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #000;
+  
+  }
+  @media screen and (max-width: 440px){
+    .homesec6 button{
+   margin-left: auto;
+   margin-right: auto;
+    }
+  } 
+  
+    
+    
+  
+
+.TopBtn{
+ width: 60px !important;
+ height: 60px !important;
+background-color: rgb(0, 33, 65) !important;
+border-radius: 50% !important;
+}

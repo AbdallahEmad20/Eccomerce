@@ -1,0 +1,108 @@
+
+
+li {
+  list-style: none;
+}
+
+
+.navaia{
+  height: 8vh;
+ 
+  background-color: #fff;
+
+  border-bottom: 2px solid rgb(0, 33, 65);
+}
+.navaia .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ height: 100%;
+}
+
+.linkaia{
+  text-decoration: none;
+}
+
+.textCo   ,.Hub {
+color:rgb(0, 33, 65);
+font-weight: bold;
+  font-size: 22px;
+}
+.Hub {
+  color: gold;
+}
+
+.iconsCart{
+  position: relative;
+  
+  }
+  
+   .iconsCart span{
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  color: #fff;  
+  position: absolute;
+  top: -7px;
+  left: -10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-size: 12px;
+  
+  }
+  .navaia form{
+    display: flex;
+    align-items: start;
+
+  }
+  .navaia form input{
+    height: 40px;
+    width: 200px;
+    background-color: #fff;
+    border: none;
+  }
+
+  .navaia form input::placeholder{
+font-size: 15px;
+  }
+  .navaia form input:focus{
+  outline: none;
+  border: none;
+  }
+
+.iconSearch{
+  font-size: 15px;
+}
+  .navaia form .btn-nav{
+
+height: 40px;
+background-color: gold;
+border: none;
+width: 40px;
+color: #fff;  
+}
+
+.loginbtn{
+  border: none;
+  display: block;
+  width: 170px;
+  height: 40px;
+  line-height: 40px;
+text-align: center;
+text-decoration: none;
+  color: #fff;
+  background-color: gold;
+  border-radius: 6px;
+
+}
+
+@media screen and (max-width: 768px) {
+   
+
+   .navaia form{
+    display: none !important;
+    
+   }
+}

@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.product{
+     text-align: center;
+     padding: 10px 20px;
+     height: 400px;
+     position: relative;
+overflow-x: hidden;
+background-color: #fff;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+;
+margin: 20px 0px;
+
+}
+.divImage{
+    /* border: 2px solid red; */
+    position: relative;
+}
+.overlay{
+/* border: 2px solid blue; */
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 0px;
+background-color: rgb(0, 33, 65);;
+transition: all 0.6s ease-in;
+}
+
+.overlay a{
+color: #fff;
+font-size: 20px;
+font-weight: 500;
+cursor: pointer;
+text-decoration: none;
+line-height: 50px;
+}
+
+.product:hover .overlay{
+   height: 50px; 
+}
+
+.product:hover img{
+transform: scale(1.1);
+transition: all 0.4s ease-in-out;
+}
+
+.content-pro{
+
+position: absolute;
+bottom: 16px;
+width: 100%;
+}
+.product p{
+    font-size: 16px;
+    
+margin: 14px 0;
+}
+.divImage{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.divImage img{
+   width: 100%; 
+   height: 100%;
+}
+
+
+
+
+
+.pro .container{
+ 
+margin: 0;
+padding: 0;
+}
+

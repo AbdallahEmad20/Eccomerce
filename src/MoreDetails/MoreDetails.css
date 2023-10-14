@@ -1,0 +1,32 @@
+  .pro .slick-slide div:not(.overlay , .divImage){
+    margin:  0  10px !important;
+   
+  }
+  
+   .swiper-pagination-bullet{
+ 
+    background-color: rgb(0, 33, 65) !important;
+    width: 12px !important;
+    height: 12px !important;
+   } 
+
+/* .pro{
+  position: relative;
+}
+ .slick-next{
+    position: absolute;
+    left: 18%;
+    top: 5% !important;
+  
+  }
+   .slick-prev{
+    position: absolute;
+    top: 5% !important;
+    left: 8% !important;
+    z-index: 222;
+  }
+   .pro .slick-prev:before,  .pro.slick-next:before {
+    color: black !important;
+    opacity: 1 !important;
+    font-size: 50px !important;
+  } */
